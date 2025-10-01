@@ -5,13 +5,13 @@
 }
 
 .sidebar {
-  background-color: rgb(60, 60, 60);
+  background-image: radial-gradient(rgb(23, 2, 23), rgb(40, 39, 39));
   width: 250px;
   min-height: 100vh;
   transition: width 0.3s, background-color 0.3s;
   display: flex;
   flex-direction: column;
-  border-right: 2px double;
+  border-right: 2px solid rgb(40, 39, 39);
   gap: 15px;
   position: fixed;
 }
@@ -38,7 +38,7 @@
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 200px;
   justify-content: space-between;
   font-size: 1.3rem;
   margin-left: 12.5px;
@@ -81,6 +81,7 @@
   color: rgb(208, 208, 208);
   margin-left: 50px;
   position: relative;
+  font-family: "Roboto Slab", serif;
 }
 
 .title::after {
@@ -109,9 +110,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.content-box-title {
 }
 
 .content-box-poster {
